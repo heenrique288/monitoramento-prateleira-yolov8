@@ -1,0 +1,21 @@
+{
+  "descricao": "Planograma - Gondola 12 (Higiene pessoal) - camera fixa frontal",
+  "limiar_baixo": 0.40,
+  "limiar_ruptura": 0.20,
+  "zonas": [
+    {"nome": "P1-E", "descricao": "Sabonete liquido", "retangulo": [0.10, 0.170, 0.52, 0.275]},
+    {"nome": "P1-D", "descricao": "Sabonete liquido", "retangulo": [0.52, 0.170, 0.95, 0.275]},
+    {"nome": "P2-E", "descricao": "Sabonete barra Dove", "retangulo": [0.10, 0.285, 0.52, 0.375], "capacidade": 10},
+    {"nome": "P2-D", "descricao": "Sabonete barra Dove", "retangulo": [0.52, 0.285, 0.95, 0.375], "capacidade": 10},
+    {"nome": "P3-E", "descricao": "Sabonete barra", "retangulo": [0.10, 0.385, 0.52, 0.475]},
+    {"nome": "P3-D", "descricao": "Sabonete barra", "retangulo": [0.52, 0.385, 0.95, 0.475]},
+    {"nome": "P4-E", "descricao": "Kit sabonetes", "retangulo": [0.10, 0.480, 0.52, 0.570]},
+    {"nome": "P4-D", "descricao": "Kit sabonetes", "retangulo": [0.52, 0.480, 0.95, 0.570]},
+    {"nome": "P5-E", "descricao": "Sabonete diversos", "retangulo": [0.10, 0.575, 0.52, 0.660]},
+    {"nome": "P5-D", "descricao": "Sabonete diversos", "retangulo": [0.52, 0.575, 0.95, 0.660]},
+    {"nome": "P6-E", "descricao": "Desodorante", "retangulo": [0.10, 0.665, 0.52, 0.745]},
+    {"nome": "P6-D", "descricao": "Cuidados faciais", "retangulo": [0.52, 0.665, 0.95, 0.745]},
+    {"nome": "P7-E", "descricao": "Lencos umedecidos", "retangulo": [0.10, 0.750, 0.52, 0.835]},
+    {"nome": "P7-D", "descricao": "Lencos umedecidos", "retangulo": [0.52, 0.750, 0.95, 0.835]}
+  ]
+}

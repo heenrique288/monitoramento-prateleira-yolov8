@@ -1,0 +1,145 @@
+{
+  "execucao": "2026-11-13T23:51:17",
+  "pesos": "C:\\Users\\zigue\\Desktop\\IFRO\\Tópicos Especiais\\N3_Monitoramento_Prateleira_YOLOv8\\modelo\\best.pt",
+  "regra": {
+    "limiar_baixo": 0.4,
+    "limiar_ruptura": 0.2,
+    "persistencia_seg": 2.0
+  },
+  "resultados": [
+    {
+      "fonte": "prateleira_02_com_rupturas.jpg",
+      "tipo": "imagem",
+      "inferencia_ms": 9.6,
+      "situacao": "CRÍTICA",
+      "produtos": 104,
+      "zonas": 12,
+      "zonas_ok": 3,
+      "zonas_baixo": 7,
+      "zonas_ruptura": 2,
+      "indice_ruptura_pct": 16.7,
+      "ocupacao_media_pct": 35.9,
+      "prioridade_reposicao": [
+        "C4",
+        "C2",
+        "C1",
+        "B1",
+        "C3",
+        "A4",
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "detalhe_zonas": [
+        {
+          "zona": "A1",
+          "descricao": "",
+          "produtos": 7,
+          "ocupacao_pct": 58.7,
+          "nivel_pct": 58.7,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "A2",
+          "descricao": "",
+          "produtos": 8,
+          "ocupacao_pct": 55.4,
+          "nivel_pct": 55.4,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "A3",
+          "descricao": "",
+          "produtos": 6,
+          "ocupacao_pct": 53.1,
+          "nivel_pct": 53.1,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "A4",
+          "descricao": "",
+          "produtos": 7,
+          "ocupacao_pct": 34.6,
+          "nivel_pct": 34.6,
+          "capacidade": null,
+          "status": "ESTOQUE BAIXO"
+        },
+        {
+          "zona": "B1",
+          "descricao": "",
+          "produtos": 12,
+          "ocupacao_pct": 29.2,
+          "nivel_pct": 29.2,
+          "capacidade": null,
+          "status": "ESTOQUE BAIXO"
+        },
+        {
+          "zona": "B2",
+          "descricao": "",
+          "produtos": 6,
+          "ocupacao_pct": 34.8,
+          "nivel_pct": 34.8,
+          "capacidade": null,
+          "status": "ESTOQUE BAIXO"
+        },
+        {
+          "zona": "B3",
+          "descricao": "",
+          "produtos": 11,
+          "ocupacao_pct": 37.3,
+          "nivel_pct": 37.3,
+          "capacidade": null,
+          "status": "ESTOQUE BAIXO"
+        },
+        {
+          "zona": "B4",
+          "descricao": "",
+          "produtos": 6,
+          "ocupacao_pct": 37.6,
+          "nivel_pct": 37.6,
+          "capacidade": null,
+          "status": "ESTOQUE BAIXO"
+        },
+        {
+          "zona": "C1",
+          "descricao": "",
+          "produtos": 23,
+          "ocupacao_pct": 27.2,
+          "nivel_pct": 27.2,
+          "capacidade": null,
+          "status": "ESTOQUE BAIXO"
+        },
+        {
+          "zona": "C2",
+          "descricao": "",
+          "produtos": 5,
+          "ocupacao_pct": 15.9,
+          "nivel_pct": 15.9,
+          "capacidade": null,
+          "status": "RUPTURA"
+        },
+        {
+          "zona": "C3",
+          "descricao": "",
+          "produtos": 9,
+          "ocupacao_pct": 34.3,
+          "nivel_pct": 34.3,
+          "capacidade": null,
+          "status": "ESTOQUE BAIXO"
+        },
+        {
+          "zona": "C4",
+          "descricao": "",
+          "produtos": 4,
+          "ocupacao_pct": 12.4,
+          "nivel_pct": 12.4,
+          "capacidade": null,
+          "status": "RUPTURA"
+        }
+      ]
+    }
+  ]
+}

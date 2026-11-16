@@ -1,0 +1,15 @@
+﻿data_hora;fonte;quadro;tempo_video_s;zona;produto_zona;evento;status_anterior;status;qtd_produtos;ocupacao_pct;nivel_pct;acao_recomendada
+2026-11-13 23:51:20;prateleira_02_com_rupturas.jpg;0;0.0;A4;;ALERTA;-;ESTOQUE BAIXO;7;34.6;34.6;Programar reposição (estoque baixo)
+2026-11-13 23:51:20;prateleira_02_com_rupturas.jpg;0;0.0;B1;;ALERTA;-;ESTOQUE BAIXO;12;29.2;29.2;Programar reposição (estoque baixo)
+2026-11-13 23:51:20;prateleira_02_com_rupturas.jpg;0;0.0;B2;;ALERTA;-;ESTOQUE BAIXO;6;34.8;34.8;Programar reposição (estoque baixo)
+2026-11-13 23:51:20;prateleira_02_com_rupturas.jpg;0;0.0;B3;;ALERTA;-;ESTOQUE BAIXO;11;37.3;37.3;Programar reposição (estoque baixo)
+2026-11-13 23:51:20;prateleira_02_com_rupturas.jpg;0;0.0;B4;;ALERTA;-;ESTOQUE BAIXO;6;37.6;37.6;Programar reposição (estoque baixo)
+2026-11-13 23:51:20;prateleira_02_com_rupturas.jpg;0;0.0;C1;;ALERTA;-;ESTOQUE BAIXO;23;27.2;27.2;Programar reposição (estoque baixo)
+2026-11-13 23:51:20;prateleira_02_com_rupturas.jpg;0;0.0;C2;;ALERTA;-;RUPTURA;5;15.9;15.9;Repor IMEDIATAMENTE (produto em falta na gôndola)
+2026-11-13 23:51:20;prateleira_02_com_rupturas.jpg;0;0.0;C3;;ALERTA;-;ESTOQUE BAIXO;9;34.3;34.3;Programar reposição (estoque baixo)
+2026-11-13 23:51:20;prateleira_02_com_rupturas.jpg;0;0.0;C4;;ALERTA;-;RUPTURA;4;12.4;12.4;Repor IMEDIATAMENTE (produto em falta na gôndola)
+2026-11-13 23:51:26;prateleira_03_enquadramento.jpg;0;0.0;A1;;ALERTA;-;ESTOQUE BAIXO;6;33.1;33.1;Programar reposição (estoque baixo)
+2026-11-13 23:51:32;prateleira_04_planograma.jpg;0;0.0;P7-E;Lencos umedecidos;ALERTA;-;ESTOQUE BAIXO;6;35.8;35.8;Programar reposição (estoque baixo)
+2026-11-13 23:51:57;simulacao_ruptura.mp4;166;11.07;B2;;ALERTA;OK;ESTOQUE BAIXO;5;27.6;27.6;Programar reposição (estoque baixo)
+2026-11-13 23:52:03;simulacao_ruptura.mp4;214;14.27;B2;;ALERTA;ESTOQUE BAIXO;RUPTURA;1;9.4;9.4;Repor IMEDIATAMENTE (produto em falta na gôndola)
+2026-11-13 23:52:16;simulacao_ruptura.mp4;316;21.07;B2;;NORMALIZADO;RUPTURA;OK;12;68.4;68.4;Nenhuma - zona abastecida

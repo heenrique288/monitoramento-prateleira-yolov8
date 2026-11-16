@@ -1,0 +1,155 @@
+{
+  "execucao": "2026-11-13T23:51:30",
+  "pesos": "C:\\Users\\zigue\\Desktop\\IFRO\\Tópicos Especiais\\N3_Monitoramento_Prateleira_YOLOv8\\modelo\\best.pt",
+  "regra": {
+    "limiar_baixo": 0.4,
+    "limiar_ruptura": 0.2,
+    "persistencia_seg": 2.0
+  },
+  "resultados": [
+    {
+      "fonte": "prateleira_04_planograma.jpg",
+      "tipo": "imagem",
+      "inferencia_ms": 13.2,
+      "situacao": "ATENÇÃO",
+      "produtos": 134,
+      "zonas": 14,
+      "zonas_ok": 13,
+      "zonas_baixo": 1,
+      "zonas_ruptura": 0,
+      "indice_ruptura_pct": 0.0,
+      "ocupacao_media_pct": 56.3,
+      "prioridade_reposicao": [
+        "P7-E"
+      ],
+      "detalhe_zonas": [
+        {
+          "zona": "P1-E",
+          "descricao": "Sabonete liquido",
+          "produtos": 8,
+          "ocupacao_pct": 64.6,
+          "nivel_pct": 64.6,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P1-D",
+          "descricao": "Sabonete liquido",
+          "produtos": 8,
+          "ocupacao_pct": 51.6,
+          "nivel_pct": 51.6,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P2-E",
+          "descricao": "Sabonete barra Dove",
+          "produtos": 10,
+          "ocupacao_pct": 64.2,
+          "nivel_pct": 100.0,
+          "capacidade": 10,
+          "status": "OK"
+        },
+        {
+          "zona": "P2-D",
+          "descricao": "Sabonete barra Dove",
+          "produtos": 8,
+          "ocupacao_pct": 58.2,
+          "nivel_pct": 80.0,
+          "capacidade": 10,
+          "status": "OK"
+        },
+        {
+          "zona": "P3-E",
+          "descricao": "Sabonete barra",
+          "produtos": 6,
+          "ocupacao_pct": 72.2,
+          "nivel_pct": 72.2,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P3-D",
+          "descricao": "Sabonete barra",
+          "produtos": 9,
+          "ocupacao_pct": 63.7,
+          "nivel_pct": 63.7,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P4-E",
+          "descricao": "Kit sabonetes",
+          "produtos": 8,
+          "ocupacao_pct": 57.9,
+          "nivel_pct": 57.9,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P4-D",
+          "descricao": "Kit sabonetes",
+          "produtos": 11,
+          "ocupacao_pct": 69.3,
+          "nivel_pct": 69.3,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P5-E",
+          "descricao": "Sabonete diversos",
+          "produtos": 10,
+          "ocupacao_pct": 48.2,
+          "nivel_pct": 48.2,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P5-D",
+          "descricao": "Sabonete diversos",
+          "produtos": 10,
+          "ocupacao_pct": 43.7,
+          "nivel_pct": 43.7,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P6-E",
+          "descricao": "Desodorante",
+          "produtos": 6,
+          "ocupacao_pct": 48.6,
+          "nivel_pct": 48.6,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P6-D",
+          "descricao": "Cuidados faciais",
+          "produtos": 9,
+          "ocupacao_pct": 56.4,
+          "nivel_pct": 56.4,
+          "capacidade": null,
+          "status": "OK"
+        },
+        {
+          "zona": "P7-E",
+          "descricao": "Lencos umedecidos",
+          "produtos": 6,
+          "ocupacao_pct": 35.8,
+          "nivel_pct": 35.8,
+          "capacidade": null,
+          "status": "ESTOQUE BAIXO"
+        },
+        {
+          "zona": "P7-D",
+          "descricao": "Lencos umedecidos",
+          "produtos": 12,
+          "ocupacao_pct": 54.4,
+          "nivel_pct": 54.4,
+          "capacidade": null,
+          "status": "OK"
+        }
+      ]
+    }
+  ]
+}

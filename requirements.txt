@@ -1,0 +1,11 @@
+# Execução do main.py
+ultralytics>=8.3      # YOLOv8 (instala torch, opencv-python, numpy, pillow)
+opencv-python
+numpy
+pillow
+
+# Opcionais - scripts de apoio
+pyarrow               # treinamento/preparar_dataset.py
+imageio-ffmpeg        # ferramentas/video_h264.py (vídeos em H.264)
+fpdf2                 # ferramentas/gerar_pdf.py
+markdown              # ferramentas/gerar_pdf.py

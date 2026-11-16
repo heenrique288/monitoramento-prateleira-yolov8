@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Saídas de execução do main.py e do treino
+resultados/
+runs/
+runs_treino/
+
+# Pesos base baixados automaticamente pelo Ultralytics (o best.pt treinado é versionado)
+yolov8n.pt
+yolov8s.pt
+
+# Dataset e pacotes de entrega
+datasets/
+*.zip

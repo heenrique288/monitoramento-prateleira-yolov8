@@ -1,0 +1,27 @@
+[ZONAS] Grade 3 prateleiras x 4 seções = 12 zonas
+[REGRA] OK >= 40% | ESTOQUE BAIXO >= 20% | RUPTURA < 20% (ou zona sem produtos)
+[MODELO] C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\modelo\best.pt | classes: ['produto']
+
+======================================================================
+ MONITORAMENTO DE PRATELEIRA  |  prateleira_01_abastecida.jpg
+======================================================================
+ Produtos detectados: 127    Inferência YOLOv8: 9.7 ms
+ Zona     Produtos  Ocupação   Nível   Status
+ --------------------------------------------------
+ A1              8       53%     53%      OK
+ A2              7       52%     52%      OK
+ A3              9       56%     56%      OK
+ A4              8       53%     53%      OK
+ B1              9       53%     53%      OK
+ B2             12       70%     70%      OK
+ B3             15       70%     70%      OK
+ B4             10       60%     60%      OK
+ C1             12       56%     56%      OK
+ C2             13       52%     52%      OK
+ C3             14       49%     49%      OK
+ C4             10       54%     54%      OK
+ --------------------------------------------------
+ Situação da gôndola: NORMAL | 0 zona(s) em ruptura, 0 com estoque baixo | índice de ruptura 0%
+ Imagem anotada salva em: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\prateleira_01_abastecida_resultado.jpg
+
+[FIM] Log de alertas: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\log_alertas.csv | Resumo: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\resumo_execucao.json

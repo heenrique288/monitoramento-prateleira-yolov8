@@ -1,0 +1,40 @@
+[ZONAS] Grade 3 prateleiras x 4 seções = 12 zonas
+[REGRA] OK >= 40% | ESTOQUE BAIXO >= 20% | RUPTURA < 20% (ou zona sem produtos)
+[MODELO] C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\modelo\best.pt | classes: ['produto']
+
+[VÍDEO] simulacao_ruptura.mp4 | 15 FPS | persistência p/ confirmar alerta: 2.0 s
+ [t=3.2s] (ignorado) zona B1: ESTOQUE BAIXO durou só 0.1s < 2.0s -> oscilação/oclusão, sem alerta
+ [t=3.3s] (ignorado) zona C1: ESTOQUE BAIXO durou só 0.2s < 2.0s -> oscilação/oclusão, sem alerta
+ [t=3.4s] (ignorado) zona B1: ESTOQUE BAIXO durou só 0.1s < 2.0s -> oscilação/oclusão, sem alerta
+ [t=3.9s] (ignorado) zona C3: ESTOQUE BAIXO durou só 0.2s < 2.0s -> oscilação/oclusão, sem alerta
+ [t=4.1s] (ignorado) zona B4: ESTOQUE BAIXO durou só 0.1s < 2.0s -> oscilação/oclusão, sem alerta
+ [t=4.1s] (ignorado) zona C4: ESTOQUE BAIXO durou só 0.3s < 2.0s -> oscilação/oclusão, sem alerta
+ [2026-11-13 23:51:57 t=11.1s] !! ALERTA | zona B2: OK -> ESTOQUE BAIXO | 5 produto(s), ocupação 28% | Ação: Programar reposição (estoque baixo)
+ [2026-11-13 23:52:03 t=14.3s] !! ALERTA | zona B2: ESTOQUE BAIXO -> RUPTURA | 1 produto(s), ocupação 9% | Ação: Repor IMEDIATAMENTE (produto em falta na gôndola)
+ [t=19.1s] (ignorado) zona B2: ESTOQUE BAIXO durou só 0.3s < 2.0s -> oscilação/oclusão, sem alerta
+ [2026-11-13 23:52:16 t=21.1s] OK NORMALIZADO | zona B2: RUPTURA -> OK | 12 produto(s), ocupação 68% | Ação: Nenhuma - zona abastecida
+
+======================================================================
+ MONITORAMENTO DE PRATELEIRA  |  simulacao_ruptura.mp4 (último quadro, 349 quadros)
+======================================================================
+ Produtos detectados: 129    Inferência YOLOv8: 30.8 ms
+ Zona     Produtos  Ocupação   Nível   Status
+ --------------------------------------------------
+ A1              9       56%     56%      OK
+ A2              8       55%     55%      OK
+ A3              9       56%     56%      OK
+ A4              8       53%     53%      OK
+ B1             10       56%     56%      OK
+ B2             12       68%     68%      OK
+ B3             15       71%     71%      OK
+ B4              9       59%     59%      OK
+ C1             12       56%     56%      OK
+ C2             13       51%     51%      OK
+ C3             14       49%     49%      OK
+ C4             10       55%     55%      OK
+ --------------------------------------------------
+ Situação da gôndola: NORMAL | 0 zona(s) em ruptura, 0 com estoque baixo | índice de ruptura 0%
+ Vídeo anotado salvo em: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\simulacao_ruptura_resultado.mp4
+ Eventos registrados: 3 (2 alerta(s)) | oscilações ignoradas pela persistência: 7
+
+[FIM] Log de alertas: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\log_alertas.csv | Resumo: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\resumo_execucao.json

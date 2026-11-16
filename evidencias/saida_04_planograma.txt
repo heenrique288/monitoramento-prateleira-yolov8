@@ -1,0 +1,31 @@
+[ZONAS] Planograma 'Planograma - Gondola 12 (Higiene pessoal) - camera fixa frontal' com 14 zonas
+[REGRA] OK >= 40% | ESTOQUE BAIXO >= 20% | RUPTURA < 20% (ou zona sem produtos)
+[MODELO] C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\modelo\best.pt | classes: ['produto']
+
+======================================================================
+ MONITORAMENTO DE PRATELEIRA  |  prateleira_04_planograma.jpg
+======================================================================
+ Produtos detectados: 134    Inferência YOLOv8: 13.2 ms
+ Zona     Produtos  Ocupação   Nível   Status
+ --------------------------------------------------
+ P1-E            8       65%     65%      OK  (Sabonete liquido)
+ P1-D            8       52%     52%      OK  (Sabonete liquido)
+ P2-E           10       64%    100%      OK  (Sabonete barra Dove)
+ P2-D            8       58%     80%      OK  (Sabonete barra Dove)
+ P3-E            6       72%     72%      OK  (Sabonete barra)
+ P3-D            9       64%     64%      OK  (Sabonete barra)
+ P4-E            8       58%     58%      OK  (Kit sabonetes)
+ P4-D           11       69%     69%      OK  (Kit sabonetes)
+ P5-E           10       48%     48%      OK  (Sabonete diversos)
+ P5-D           10       44%     44%      OK  (Sabonete diversos)
+ P6-E            6       49%     49%      OK  (Desodorante)
+ P6-D            9       56%     56%      OK  (Cuidados faciais)
+ P7-E            6       36%     36%    ! ESTOQUE BAIXO  (Lencos umedecidos)
+ P7-D           12       54%     54%      OK  (Lencos umedecidos)
+ --------------------------------------------------
+ Situação da gôndola: ATENÇÃO | 0 zona(s) em ruptura, 1 com estoque baixo | índice de ruptura 0%
+ Prioridade de reposição: P7-E
+ [2026-11-13 23:51:32] !! ALERTA | zona P7-E (Lencos umedecidos): - -> ESTOQUE BAIXO | 6 produto(s), ocupação 36% | Ação: Programar reposição (estoque baixo)
+ Imagem anotada salva em: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\prateleira_04_planograma_resultado.jpg
+
+[FIM] Log de alertas: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\log_alertas.csv | Resumo: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\resumo_execucao.json

@@ -1,0 +1,37 @@
+[ZONAS] Grade 3 prateleiras x 4 seções = 12 zonas
+[REGRA] OK >= 40% | ESTOQUE BAIXO >= 20% | RUPTURA < 20% (ou zona sem produtos)
+[MODELO] C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\modelo\best.pt | classes: ['produto']
+
+======================================================================
+ MONITORAMENTO DE PRATELEIRA  |  prateleira_02_com_rupturas.jpg
+======================================================================
+ Produtos detectados: 104    Inferência YOLOv8: 9.6 ms
+ Zona     Produtos  Ocupação   Nível   Status
+ --------------------------------------------------
+ A1              7       59%     59%      OK
+ A2              8       55%     55%      OK
+ A3              6       53%     53%      OK
+ A4              7       35%     35%    ! ESTOQUE BAIXO
+ B1             12       29%     29%    ! ESTOQUE BAIXO
+ B2              6       35%     35%    ! ESTOQUE BAIXO
+ B3             11       37%     37%    ! ESTOQUE BAIXO
+ B4              6       38%     38%    ! ESTOQUE BAIXO
+ C1             23       27%     27%    ! ESTOQUE BAIXO
+ C2              5       16%     16%   !! RUPTURA
+ C3              9       34%     34%    ! ESTOQUE BAIXO
+ C4              4       12%     12%   !! RUPTURA
+ --------------------------------------------------
+ Situação da gôndola: CRÍTICA | 2 zona(s) em ruptura, 7 com estoque baixo | índice de ruptura 17%
+ Prioridade de reposição: C4 > C2 > C1 > B1 > C3 > A4 > B2 > B3 > B4
+ [2026-11-13 23:51:20] !! ALERTA | zona A4: - -> ESTOQUE BAIXO | 7 produto(s), ocupação 35% | Ação: Programar reposição (estoque baixo)
+ [2026-11-13 23:51:20] !! ALERTA | zona B1: - -> ESTOQUE BAIXO | 12 produto(s), ocupação 29% | Ação: Programar reposição (estoque baixo)
+ [2026-11-13 23:51:20] !! ALERTA | zona B2: - -> ESTOQUE BAIXO | 6 produto(s), ocupação 35% | Ação: Programar reposição (estoque baixo)
+ [2026-11-13 23:51:20] !! ALERTA | zona B3: - -> ESTOQUE BAIXO | 11 produto(s), ocupação 37% | Ação: Programar reposição (estoque baixo)
+ [2026-11-13 23:51:20] !! ALERTA | zona B4: - -> ESTOQUE BAIXO | 6 produto(s), ocupação 38% | Ação: Programar reposição (estoque baixo)
+ [2026-11-13 23:51:20] !! ALERTA | zona C1: - -> ESTOQUE BAIXO | 23 produto(s), ocupação 27% | Ação: Programar reposição (estoque baixo)
+ [2026-11-13 23:51:20] !! ALERTA | zona C2: - -> RUPTURA | 5 produto(s), ocupação 16% | Ação: Repor IMEDIATAMENTE (produto em falta na gôndola)
+ [2026-11-13 23:51:20] !! ALERTA | zona C3: - -> ESTOQUE BAIXO | 9 produto(s), ocupação 34% | Ação: Programar reposição (estoque baixo)
+ [2026-11-13 23:51:20] !! ALERTA | zona C4: - -> RUPTURA | 4 produto(s), ocupação 12% | Ação: Repor IMEDIATAMENTE (produto em falta na gôndola)
+ Imagem anotada salva em: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\prateleira_02_com_rupturas_resultado.jpg
+
+[FIM] Log de alertas: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\log_alertas.csv | Resumo: C:\Users\zigue\Desktop\IFRO\Tópicos Especiais\N3_Monitoramento_Prateleira_YOLOv8\evidencias\resumo_execucao.json
